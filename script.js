@@ -215,9 +215,9 @@ function saveData() {
   $.cookie("storeQuantity",storeQuantity);
 }
 
-$(document).ready(function(){
+/*$(document).ready(function(){
   yen = $.cookie("yen");
-});
+});*/
 //------------------------------------------------------------------
 
 $("#cannabis-icon").click(function() {
