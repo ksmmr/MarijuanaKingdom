@@ -214,8 +214,9 @@ function saveData() {
   $.cookie("factoryQuantity",factoryQuantity);
   $.cookie("storeQuantity",storeQuantity);
 }
+
 $(document).ready(function(){
-  
+  yen = $.cookie("yen");
 });
 //------------------------------------------------------------------
 
