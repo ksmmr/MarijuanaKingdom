@@ -195,7 +195,7 @@ function updateData() {
 }
 
 setInterval(updateData, 100);
-//クッキーにデータを保存----------------------------------------------
+//クッキーにデータを保存・データを読み込み----------------------------------------------
 function saveData() {
   $.cookie("yen", yen);
   $.cookie("grams", grams);
@@ -214,6 +214,9 @@ function saveData() {
   $.cookie("factoryQuantity",factoryQuantity);
   $.cookie("storeQuantity",storeQuantity);
 }
+$(document).ready(function(){
+  
+});
 //------------------------------------------------------------------
 
 $("#cannabis-icon").click(function() {
